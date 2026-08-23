@@ -1,0 +1,252 @@
+baseURL: "https://markheydon.github.io/turpinverse-richard-turpin/"
+locale: "en-GB"
+title: "Richard Turpin"
+enableRobotsTXT: true
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+pagination:
+  pagerSize: 8
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - identifier: blogs
+      name: "Blog"
+      url: "/blogs/"
+      weight: 1
+    - identifier: gallery
+      name: "Gallery"
+      url: "/gallery/"
+      weight: 2
+
+module:
+  imports:
+    - path: github.com/gurusabarish/hugo-profile
+
+params:
+  title: "Richard Turpin"
+  description: "Board-level executive with a reputation for rapid corridor optimisation and unconventional stakeholder engagement."
+  author: "Richard Turpin"
+  animate: true
+
+  singlePages:
+    socialShare: false
+    tags:
+      openInNewTab: false
+    scrollProgress:
+      enable: true
+
+  font:
+    fontSize: 1rem
+    fontWeight: 500
+    lineHeight: 1.5
+
+  color:
+    textColor: "#111827"
+    secondaryTextColor: "#4b5563"
+    backgroundColor: "#ffffff"
+    primaryColor: "#d97706"
+    secondaryColor: "#f3f4f6"
+    darkmode:
+      textColor: "#ffffff"
+      secondaryTextColor: "#d1d5db"
+      backgroundColor: "#121212"
+      primaryColor: "#d97706"
+      secondaryColor: "#1f2937"
+
+  navbar:
+    brandName: "Richard Turpin"
+
+  hero:
+    enable: true
+    title: "Richard Turpin"
+    subtitle: "CEO, Strategic Corridor Operations"
+    content: "Board-level executive with a reputation for rapid corridor optimisation and unconventional stakeholder engagement."
+    image: "/images/personas/richard-turpin-profile-modern.png"
+    roundImage: true
+    button:
+      enable: true
+      name: "Turpin Enterprises"
+      url: "https://turpinverse.uk/organisations/turpin-enterprises/"
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: "https://linkedin.turpinverse.uk/in/richard-turpin"
+        - icon: fab fa-twitter
+          url: "https://twitter.turpinverse.uk/richardturpin"
+        - icon: fab fa-github
+          url: "https://github.turpinverse.uk/richard-turpin"
+
+  about:
+    enable: true
+    title: "About"
+    image: "/images/personas/richard-turpin-profile-modern.png"
+    content: |-
+      Board-level executive with a reputation for rapid corridor optimisation and unconventional stakeholder engagement. Prefers to be addressed as Richard in all formal correspondence.
+
+      Legend basis: The celebrated Essex Gang era figure; informal alias 'Dick' retained in legacy systems only.
+    skills:
+      enable: true
+      title: "Core competencies"
+      items:
+        - "Strategic corridor planning"
+        - "Stakeholder engagement"
+        - "Equine logistics"
+        - "Risk assessment"
+        - "Executive leadership"
+
+  experience:
+    enable: true
+    items:
+      - company: "Turpin Enterprises"
+        companyUrl: "https://turpinverse.uk/organisations/turpin-enterprises/"
+        jobs:
+          - name: "Chief Corridor Strategy Officer"
+            date: "Jan 2022 - present"
+            content: |
+              Leads enterprise route optimisation, corridor licensing, and strategic asset redistribution across the Home Counties. Owns the executive dashboard for discretionary travel approvals.
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fas fa-file-lines
+                  url: "https://turpinverse.uk/organisations/turpin-enterprises/"
+                  tooltip: "Internal strategy overview — demo access only"
+          - name: "Regional Operations Lead"
+            date: "Mar 2018 - Jun 2021"
+            content: |
+              Ran field operations for Essex and Hertfordshire procurement lanes. Introduced KPIs for acquisition velocity and stakeholder discretion.
+          - name: "Consultant, Corridor Advisory"
+            date: "Sep 2015 - Dec 2017"
+            content: |
+              Returned after a structured sabbatical to rebuild the Yorkshire corridor practice. Rehired into a broader remit covering identity lifecycle touchpoints.
+      - company: "Essex Solutions Group"
+        companyUrl: "https://turpinverse.uk/organisations/essex-gang/"
+        jobs:
+          - name: "Director of Integrated Procurement"
+            date: "Apr 2012 - Aug 2015"
+            content: |
+              Oversaw rural procurement networks and merger integration after the Gregory Gang consolidation. Standardised corridor handoff playbooks across member cells.
+            info:
+              content: "Board minutes note a preference for 'terms-flexible' contracting language."
+      - company: "King Equine Partners"
+        companyUrl: "https://turpinverse.uk/organisations/king-equine-trading/"
+        jobs:
+          - name: "Fleet Acquisition Specialist"
+            date: "Jan 2009 - Mar 2012"
+            content: |
+              Managed rapid equine acquisition programmes and disputed mileage reconciliation for corridor clients. Partnered with Matthew King on high-velocity trading windows.
+
+  education:
+    enable: true
+    index: true
+    items:
+      - title: "MBA, Strategic Corridor Management"
+        school:
+          name: "Open University Business School"
+          url: "https://www.open.ac.uk/business"
+        date: "Sep 2016 - Jun 2018"
+        GPA: "Distinction"
+        content: |
+          Dissertation on discretionary logistics and reputation risk in regulated transport corridors. Coursework framed legend-as-business case studies for client workshops.
+        featuredLink:
+          enable: true
+          name: "View programme"
+          url: "https://www.open.ac.uk/business/mba"
+      - title: "BSc Operations & Supply Chain"
+        school:
+          name: "University of Hertfordshire"
+          url: "https://www.herts.ac.uk"
+        date: "Sep 2005 - Jun 2008"
+        GPA: "2:1"
+        content: |
+          Focused on last-mile redistribution, inventory variance, and stakeholder communication under ambiguous regulatory conditions.
+
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "Black Bess Route Optimiser"
+        content: "Real-time corridor planning suite for high-velocity equine logistics. Reduces discretionary delay windows across Epping Forest lanes."
+        image: "/images/projects/black-bess-route-optimiser.svg"
+        badges:
+          - "logistics"
+          - "corridor"
+          - "SaaS"
+        links:
+          - icon: fas fa-link
+            url: "https://turpinverse.uk/organisations/turpin-enterprises/"
+        featured:
+          name: "Request demo"
+          link: "https://turpinverse.uk/organisations/turpin-enterprises/"
+      - title: "Essex Procurement Hub"
+        content: "Consolidated marketplace for rural asset redistribution with flexible contracting templates. Legacy platform from the Essex Solutions merger."
+        image: "/images/projects/essex-procurement-hub.svg"
+        badges:
+          - "procurement"
+          - "marketplace"
+          - "legacy"
+        links:
+          - icon: fas fa-link
+            url: "https://turpinverse.uk/organisations/essex-gang/"
+      - title: "Palmer Identity Vault"
+        content: "SSO and alias lifecycle tooling for clients relocating under fresh credentials. Keeps Yorkshire and Essex personas cleanly separated in audit logs."
+        image: "/images/projects/palmer-identity-vault.svg"
+        badges:
+          - "identity"
+          - "compliance"
+          - "SSO"
+        links:
+          - icon: fas fa-shield-halved
+            url: "https://turpinverse.uk/organisations/brazier-legal/"
+
+  achievements:
+    enable: true
+    items:
+      - title: "Corridor Innovation Award 2024"
+        content: "Recognised for enterprise route optimisation and discretionary travel governance across the Home Counties corridor network."
+        url: "https://turpinverse.uk/organisations/turpin-enterprises/"
+        image: "/images/achievements/corridor-innovation-2024.svg"
+      - title: "Equine Velocity Certification"
+        content: "Industry credential for rapid fleet acquisition programmes delivered with King Equine Partners."
+        url: "https://turpinverse.uk/organisations/king-equine-trading/"
+      - title: "Essex Merger Integration Excellence"
+        content: "Citation for post-merger procurement standardisation after the Gregory Gang consolidation programme."
+      - title: "Rose & Crown Patron Programme"
+        content: "Long-standing patron recognition for discretion-forward hospitality partnerships along the Hempstead corridor."
+
+  contact:
+    enable: true
+    content: |-
+      For corridor strategy enquiries and speaking invitations, reach Richard directly.
+
+      Phone: 01707-555-0101
+    email: "richard.turpin@turpinverse.uk"
+    btnName: "Email Richard"
+    btnLink: "mailto:richard.turpin@turpinverse.uk"
+
+  footer:
+    recentPosts:
+      enable: true
+      title: "Recent Posts"
+      count: 3
+      path: "blogs"
+    socialNetworks:
+      github: "https://github.turpinverse.uk/richard-turpin"
+      linkedin: "https://linkedin.turpinverse.uk/in/richard-turpin"
+      twitter: "https://twitter.turpinverse.uk/richardturpin"
