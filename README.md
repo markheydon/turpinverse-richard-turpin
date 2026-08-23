@@ -1,8 +1,8 @@
-# Richard Turpin — Hugo Profile demo
+# Richard Turpin - Hugo Profile demo
 
-Naked [Hugo Profile](https://github.com/gurusabarish/hugo-profile) site for **Richard Turpin** (Dick Turpin), assembled as a Turpinverse persona demo for [Hugo Matters](https://github.com/markheydon/hugo-matters) CMS testing.
+Demo [Hugo Profile](https://github.com/gurusabarish/hugo-profile) site for **Richard Turpin** (Dick Turpin), assembled as a Turpinverse persona demo for [Hugo Matters](https://github.com/markheydon/hugo-matters) CMS testing.
 
-This is not a production personal site. It maps generic Turpinverse domain data into Hugo Profile `params` and content. No Frontmatter CMS, GitHub Actions, Dev Container, or Cursor scaffolding is included, so the CMS can be layered on a clean tree.
+This is not a production personal site. It maps generic Turpinverse domain data into Hugo Profile `params` and content.
 
 ## Run locally
 
