@@ -1,0 +1,70 @@
+/* High-contrast site-wide banner: this profile is fictional demo data. */
+.fictional-disclaimer {
+  position: sticky;
+  top: 0;
+  z-index: 1080;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: #111827;
+  color: #facc15;
+  border-bottom: 3px solid #facc15;
+  text-align: center;
+}
+
+.fictional-disclaimer__text {
+  margin: 0 auto;
+  max-width: 56rem;
+  font-family: Roboto, system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.fictional-disclaimer__text strong {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.fictional-disclaimer__link {
+  color: #fde68a;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  white-space: nowrap;
+}
+
+.fictional-disclaimer__link:hover,
+.fictional-disclaimer__link:focus {
+  color: #ffffff;
+}
+
+.fictional-disclaimer-footer {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: inherit;
+}
+
+.fictional-disclaimer-footer a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body.dark .fictional-disclaimer,
+html.dark .fictional-disclaimer {
+  background: #facc15;
+  color: #111827;
+  border-bottom-color: #111827;
+}
+
+body.dark .fictional-disclaimer__link,
+html.dark .fictional-disclaimer__link {
+  color: #111827;
+}
+
+body.dark .fictional-disclaimer__link:hover,
+body.dark .fictional-disclaimer__link:focus,
+html.dark .fictional-disclaimer__link:hover,
+html.dark .fictional-disclaimer__link:focus {
+  color: #000000;
+}

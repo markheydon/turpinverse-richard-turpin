@@ -1,0 +1,11 @@
+{{ $text := .Site.Params.disclaimer.text | default "This is a fictional demo profile. Richard Turpin and Turpin Enterprises are not real. Generated as Turpinverse demo data." }}
+{{ $linkUrl := .Site.Params.disclaimer.linkUrl }}
+{{ $linkText := .Site.Params.disclaimer.linkText | default "Turpinverse persona page" }}
+<aside class="fictional-disclaimer" role="note" aria-label="Fictional demo disclaimer">
+  <p class="fictional-disclaimer__text">
+    {{ $text }}
+    {{ if $linkUrl }}
+    <a class="fictional-disclaimer__link" href="{{ $linkUrl }}" rel="noopener noreferrer">{{ $linkText }}</a>
+    {{ end }}
+  </p>
+</aside>

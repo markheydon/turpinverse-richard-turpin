@@ -1,6 +1,6 @@
 baseURL: "https://markheydon.github.io/turpinverse-richard-turpin/"
 locale: "en-GB"
-title: "Richard Turpin"
+title: "(Demo — fictional) Richard Turpin"
 enableRobotsTXT: true
 
 caches:
@@ -41,9 +41,14 @@ module:
 
 params:
   title: "Richard Turpin"
-  description: "Board-level executive with a reputation for rapid corridor optimisation and unconventional stakeholder engagement."
+  description: "This is a fictional demo profile. Richard Turpin and Turpin Enterprises are not real. Generated as Turpinverse demo data."
   author: "Richard Turpin"
   animate: true
+
+  disclaimer:
+    text: "This is a fictional demo profile. Richard Turpin and Turpin Enterprises are not real. Generated as Turpinverse demo data."
+    linkText: "Turpinverse persona page"
+    linkUrl: "https://turpinverse.uk/personas/dick-turpin/"
 
   singlePages:
     socialShare: false
