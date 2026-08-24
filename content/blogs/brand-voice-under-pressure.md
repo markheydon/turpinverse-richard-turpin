@@ -12,7 +12,9 @@ When brand guidance lands after the posters are already on the coaching inn wall
 
 We have learned to treat brand voice as operational infrastructure, not decoration. That discipline is why several of us keep returning to the same support case until the tone matches the promise.
 
-color me something adfj
+Colasdfaor me something or other.
+
+This is me just trying to type some bits in the middle and seems to be working.
 
 # aksldjfla
 
